@@ -85,3 +85,10 @@ section.lang + section.lang { border-top: 1px solid var(--border); }
 .legal .back { display: inline-flex; min-height: 44px; align-items: center; }
 .legal nav ul { list-style: none; display: flex; gap: 1.5rem; margin: 1rem 0 0; padding: 0; }
 .legal nav a { display: inline-flex; min-height: 44px; align-items: center; font-family: var(--serif); }
+
+/* SMS opt-in examples page */
+.optin figure { margin: 1rem 0 0; }
+.optin figure img { display: block; max-width: 100%; height: auto; border: 1px solid var(--border); background: var(--paper); }
+.optin figcaption { font-size: 0.95rem; color: var(--muted); margin-top: 0.5rem; }
+.optin h3 { margin-top: 2rem; }
+.legal .optin-link { margin-top: 1rem; }
