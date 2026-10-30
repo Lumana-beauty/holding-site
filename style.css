@@ -63,6 +63,8 @@ section.lang + section.lang { border-top: 1px solid var(--border); }
 .cards { list-style: none; margin: 1.5rem 0 0; padding: 0; display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 .cards li { background: var(--paper); border: 1px solid var(--border); padding: 1.25rem; }
 .cards p { font-size: 1rem; color: var(--muted); }
+.menu { list-style: none; margin: 0.75rem 0 0; padding: 0; }
+.menu li { padding: 0.3rem 0; border-top: 1px solid var(--border); background: none; border-left: 0; border-right: 0; border-bottom: 0; }
 .note { font-size: 0.95rem; color: var(--muted); }
 
 .book { background: var(--navy); color: var(--ivory); padding: 1.5rem; margin-top: 1.5rem; }
@@ -92,3 +94,6 @@ section.lang + section.lang { border-top: 1px solid var(--border); }
 .optin figcaption { font-size: 0.95rem; color: var(--muted); margin-top: 0.5rem; }
 .optin h3 { margin-top: 2rem; }
 .legal .optin-link { margin-top: 1rem; }
+
+.optin blockquote { margin: 1rem 0; padding: 1rem 1.25rem; background: var(--paper); border-left: 3px solid var(--champagne); }
+.optin .note-shots { font-size: 0.95rem; color: var(--muted); }
